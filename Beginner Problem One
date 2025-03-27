@@ -1,0 +1,13 @@
+import easygui
+easygui.msgbox("This program can convert minute into seconds.")
+Minute=easygui.enterbox("Please enter an integer in minutes.")
+Minute=int(Minute)
+Seconds=60*(Minute)
+Answer=("That's",Seconds,"seconds.")
+easygui.msgbox(Answer)
+
+print("This program can convert minute into seconds.")
+Minute=input("Please enter an integer in minutes.")
+Minute=int(Minute)
+Seconds=60*(Minute)
+print("That's",Seconds,"seconds.")
